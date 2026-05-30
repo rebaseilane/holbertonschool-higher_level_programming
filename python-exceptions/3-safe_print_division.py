@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+"""Module for safe division."""
+
+
+def safe_print_division(a, b):
+    """Divide two integers and print the result."""
+    result = None
+
+    try:
+        result = a / b
+    except ZeroDivisionError:
+        result = None
+    finally:
+        print("Inside result: {}".format(result))
+
+    return result
