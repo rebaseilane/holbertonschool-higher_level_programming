@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-Prints the lowercase alphabet except q and e.
-"""
 
 for i in range(97, 123):
-    if chr(i) != 'q' and chr(i) != 'e':
+    if i != 113 and i != 101:
         print("{}".format(chr(i)), end="")
