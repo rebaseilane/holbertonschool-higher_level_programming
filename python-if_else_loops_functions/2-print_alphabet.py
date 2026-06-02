@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-Prints the lowercase alphabet.
-"""
 
+alphabet = ""
 for i in range(97, 123):
-    print("{}".format(chr(i)), end="")
+    alphabet += "{}".format(chr(i))
+print("{}".format(alphabet), end="")
