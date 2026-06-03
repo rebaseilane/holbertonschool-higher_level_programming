@@ -8,7 +8,7 @@ if (isNaN(size)) {
   let i = 0;
 
   while (i < size) {
-    let line = "";
+    let line = '';
     let j = 0;
 
     while (j < size) {
