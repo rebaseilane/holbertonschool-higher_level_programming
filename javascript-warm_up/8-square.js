@@ -3,7 +3,7 @@
 const size = parseInt(process.argv[2], 10);
 
 if (isNaN(size)) {
-  console.log("Missing size");
+  console.log('Missing size');
 } else {
   let i = 0;
 
@@ -12,7 +12,7 @@ if (isNaN(size)) {
     let j = 0;
 
     while (j < size) {
-      line += "X";
+      line += 'X';
       j += 1;
     }
 
